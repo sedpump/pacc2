@@ -1,0 +1,63 @@
+.profit {
+    padding: 24px 10px;
+}
+
+.profit__container {
+    padding: 24px 0 48px;
+    max-width: 355px;
+    margin: 0 auto;
+}
+
+.profit__title {
+    margin: 0 0 12px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.profit__text {
+    margin: 0;
+    font-size: 18px;
+    letter-spacing: 0.18px;
+    text-align: center;
+}
+
+
+.profit__image {
+    margin: 0 auto 48px;
+    display: block;
+    max-width: 355px;
+}
+
+@media (min-width: 1300px) {
+    .profit {
+        padding: 0;
+    }
+
+    .profit__image {
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .profit__title {
+        font-size: 40px;
+        margin-bottom: 12px;
+    }
+
+    .profit__text {
+        font-size: 20px;
+        letter-spacing: 0.2px;
+        line-height: 1.4;
+    }
+
+    .profit__container {
+        max-width: 1175px;
+        background: unset;
+        padding: unset;
+        padding-bottom: 64px;
+    }
+
+    .profit__container .shop-btn {
+        margin-top: -96px;
+    }
+}

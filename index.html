@@ -53,7 +53,7 @@
 <main class="👑">
     <section class="💡">
         <div class="💡🍟️">
-            <img class="💡🖼" loading="lazy" src="assets/iintro.jpg" alt="">
+            <img class="💡🖼" loading="lazy" src="assets/intro-hearts.jpg" alt="">
             <div class="💡🛋️">
                 <div class="💡🙂">
                     <span class="💡🙂📔">15,000+&nbsp;</span>
@@ -102,7 +102,7 @@
                 </div>
                 <div class="advantages__item">
                     <h4 class="advantages__item-title️">FAST<br> CLUMPING</h4>
-                    <p class="advantages__item-text">Strong, tight clumps start to form within XX seconds after your cat
+                    <p class="advantages__item-text">Strong, tight clumps start to form within 3 seconds after your cat
                         urinates and quickly grow over time. <strong>Suitable for automatic litter boxes.</strong></p>
                 </div>
                 <div class="advantages__item">
@@ -616,7 +616,7 @@
 </main>
 <footer class="👣">
     <div class="👣🍟">
-        <a class="👣🖇️">
+        <a class="👣🖇️" href="index.html">
             <img loading="lazy" class="👣🖼️" src="assets/logo.png" width="49" height="49" alt="Paco & Pepper">
         </a>
         <ul class="👣🧭📝">
@@ -650,6 +650,12 @@
                 </li>
             </ul>
         </div>
+        <ul class="payments">
+            <li><img src="assets/payments/discover.svg" width="38" height="24"></li>
+            <li><img src="assets/payments/amex.svg" width="38" height="24"></li>
+            <li><img src="assets/payments/mastercard.svg" width="38" height="24"></li>
+            <li><img src="assets/payments/visa.svg" width="38" height="24"></li>
+        </ul>
     </div>
 </footer>
 
@@ -753,7 +759,11 @@
             heart.remove();
         }, 5000);
     }
-    setInterval(createHeart, 200);
+    if (window.innerWidth < 1000) {
+        setInterval(createHeart, 400);
+    } else {
+        setInterval(createHeart, 200);
+    }
 </script>
 
 <!-- POPUP -->

@@ -169,30 +169,30 @@
     height: auto;
 }
 
+.heart {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    transform: translateY(0);
+    animation: fall 3s linear forwards;
+}
+
+@keyframes fall {
+    from {
+        transform: translateY(0vh) translateX(-10vw);
+    }
+    to {
+        transform: translateY(105vh) translateX(10vw);
+    }
+}
+
 @media (min-width: 1000px ) {
     .💡 {
         padding: 0 6px;
         background-image: unset;
         overflow: hidden;
         position: relative;
-    }
-
-    .heart {
-        font-size: 1.5rem;
-        position: absolute;
-        top: 0;
-        z-index: 3;
-        transform: translateY(0);
-        animation: fall 3s linear forwards;
-    }
-
-    @keyframes fall {
-        from {
-            transform: translateY(0vh) translateX(-10vw);
-        }
-        to {
-            transform: translateY(105vh) translateX(10vw);
-        }
     }
 
     .💡🍟️ {
@@ -1345,6 +1345,17 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.payments {
+    width: 100%;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    gap: 10px;
 }
 
 .👣🧭📝 {

@@ -19,7 +19,7 @@
 }
 
 .💡🍟️::before {
-    content: '';
+    /*content: '';*/
     background-image: url("../assets/sticker.png");
     width: 279px;
     width: 120px;
@@ -219,7 +219,8 @@
     }
 
     .💡🖼 {
-        object-position: -122px -1px;
+        /*object-position: -122px -1px;*/
+        object-position: 0 -1px;
         width: 67%;
         margin-bottom: 0;
     }

@@ -59,10 +59,12 @@
 
     .partner__logo {
         margin-right: 120px;
+        margin-bottom: 0;
     }
 
     .partner__content {
         display: flex;
+        align-items: center;
     }
 
     .partner__container {
@@ -73,8 +75,8 @@
     }
 
     .partner__text {
-        font-size: 32px;
-        line-height: 38px;
+        font-size: 20px;
+        line-height: 28px;
     }
 
     .partner__image {

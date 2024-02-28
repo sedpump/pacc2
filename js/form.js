@@ -34,7 +34,7 @@ form.onchange = () => {
             link.href = 'https://paco-pepper.myshopify.com/a/subscriptions/checkout/47434161586471:1:690403508519';
             break;
         case (bagsCount == 3 && weeksCount == 2) :
-            link.href = 'https://paco-pepper.myshopify.com/a/subscriptions/checkout/46900943126823:1:690403606823'
+            link.href = 'https://paco-pepper.myshopify.com/a/subscriptions/checkout/47458630697255:1:690403606823'
             break;
         case (bagsCount == 1 && weeksCount == 4) :
             link.href = 'https://paco-pepper.myshopify.com/a/subscriptions/checkout/47458599895335:1:690403442983'
@@ -43,7 +43,7 @@ form.onchange = () => {
             link.href = 'https://paco-pepper.myshopify.com/a/subscriptions/checkout/47434161586471:1:690403541287'
             break;
         case (bagsCount == 3 && weeksCount == 4) :
-            link.href = 'https://paco-pepper.myshopify.com/a/subscriptions/checkout/46900943126823:1:690403639591'
+            link.href = 'https://paco-pepper.myshopify.com/a/subscriptions/checkout/47458630697255:1:690403639591'
             break;
         case (bagsCount == 1 && weeksCount == 6) :
             link.href = 'https://paco-pepper.myshopify.com/a/subscriptions/checkout/47458599895335:1:690403475751'
@@ -52,7 +52,7 @@ form.onchange = () => {
             link.href = 'https://paco-pepper.myshopify.com/a/subscriptions/checkout/47434161586471:1:690403574055'
             break;
         case (bagsCount == 3 && weeksCount == 6) :
-            link.href = 'https://paco-pepper.myshopify.com/a/subscriptions/checkout/46900943126823:1:690403672359'
+            link.href = 'https://paco-pepper.myshopify.com/a/subscriptions/checkout/47458630697255:1:690403672359'
             break;
     }
 }

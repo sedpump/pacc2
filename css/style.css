@@ -2955,7 +2955,7 @@ p.🌋💬 {
     letter-spacing: 0.2px;
     text-align: center;
     padding: 8px;
-    background: linear-gradient(to right, rgb(51, 145, 92), #94D591, rgb(51, 145, 92), #94D591);
+    background: linear-gradient(to right, #FF7417, #FDA50F, #FF7417, #FDA50F);
     position: fixed;
     top: 0;
     left: 0;
